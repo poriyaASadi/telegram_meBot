@@ -1,0 +1,296 @@
+============[Date]============
+[ 2024-07-28 15:55:02  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't use file of type Thumbnail as Sticker
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873455
+ref.message.message_id= 49
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722174908
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= AAMCBAADGQEAAy5mpjvXYfGGzCLlB1e8Tv3364GRFwACHAoAAm22xj5cAje5U_U-ugEAB20AAzUE
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(21): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 15:56:24  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't use file of type Thumbnail as Sticker
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873456
+ref.message.message_id= 51
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722174990
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= AAMCBAADGQEAAy5mpjvXYfGGzCLlB1e8Tv3364GRFwACHAoAAm22xj5cAje5U_U-ugEAB20AAzUE
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(20): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 15:56:40  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't use file of type Thumbnail as Sticker
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873457
+ref.message.message_id= 53
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175006
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= AAMCBAADGQEAAy5mpjvXYfGGzCLlB1e8Tv3364GRFwACHAoAAm22xj5cAje5U_U-ugEAB20AAzUE
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(20): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 16:03:44  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't use file of type Thumbnail as Sticker
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873458
+ref.message.message_id= 55
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175430
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= AAMCBAADGQEAAy5mpjvXYfGGzCLlB1e8Tv3364GRFwACHAoAAm22xj5cAje5U_U-ugEAB20AAzUE
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(22): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 16:04:26  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid remote file identifier
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873459
+ref.message.message_id= 56
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175472
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= CAACAgIAAxkBAAEBG2FfYMQm7Qj7kJpR6B5m4X9e5g7eAAK8AwACD0H5F0V0t1N1Gf1qBA
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(22): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 16:06:01  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid remote file identifier
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873461
+ref.message.message_id= 59
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175567
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= CAACAgIAAxkBAAEBG2FfYMQm7Qj7kJpR6B5m4X9e5g7eAAK8AwACD0H5F0V0t1N1Gf1qBA
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(22): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 16:07:21  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no sticker in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873462
+ref.message.message_id= 60
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175647
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= CAACAgIAAxkBAAEBG2FfYMQm7Qj7kJpR6B5m4X9e5g7eAAK8AwACD0H5F0V0t1N1Gf1qBA
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(22): Telegram->sendSticker(Array)
+#4 {main}
+
+============[Date]============
+[ 2024-07-28 16:08:42  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid remote file identifier
+=========[Sent Data]==========
+[ref]
+ref.update_id= 122873463
+ref.message.message_id= 61
+ref.message.from.id= 6079061070
+ref.message.from.is_bot= false
+ref.message.from.first_name= Pouria.web/developer
+ref.message.from.username= P_o_r_iya
+ref.message.from.language_code= en
+ref.message.chat.id= 6079061070
+ref.message.chat.first_name= Pouria.web/developer
+ref.message.chat.username= P_o_r_iya
+ref.message.chat.type= private
+ref.message.date= 1722175728
+ref.message.text= /me
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 3
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.sticker= CAACAgIAAxkBAAEBG2FfYMQm7Qj7kJpR6B5m4X9e5g7eAAK8AwACD0H5F0V0t1N1Gf1qBA
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\telegrom-bot\telegram.php(1862): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\telegrom-bot\telegram.php(124): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\telegrom-bot\telegram.php(266): Telegram->endpoint('sendSticker', Array)
+#3 C:\xampp\htdocs\telegrom-bot\index.php(22): Telegram->sendSticker(Array)
+#4 {main}
+
