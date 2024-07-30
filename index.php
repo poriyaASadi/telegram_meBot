@@ -11,12 +11,25 @@ $text = $telegram->Text(); // روش اول
 // $text2 = $result['message']['text'];  روش دوم 
 $mycommnets = false;
 
-if ($text == '/start') {
-     $mycommnets = true;
-    $content = array('chat_id' => $chat_id, 'text' => 'سلام خوبی جی جی');
+if ($text == '/start' or 'شروع ربات') 
+// true my commant (boolan){
+    $mycommnets = true;
+    // creat welcome massseage
+     
+   // $content = array('chat_id' => $chat_id, 'text' => 'سلام خوبی جی جی');
+  //  $telegram->sendMessage($content);
+     /// creat buttom kyboard btn 
+    $option = array( 
+        //First row
+        array($telegram->buildKeyboardButton("شروع ربات")),
+        //Second row 
+        array($telegram->buildKeyboardButton("اطلاعات ربات"), $telegram->buildKeyboardButton("Button 4")), 
+    );
+    $keyb = $telegram->buildKeyBoard($option, $onetime=true);
+    $content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => 'سلام خوبی جی جی');
     $telegram->sendMessage($content);
-}
-if ($text == '/infos') {
+
+if ($text == '/infos' or 'اطلاعات ربات') {
     $mycommnets = true;
   //  $info =  json_encode($telegram->getMe());
      $infos = 'nameBot : ' . $telegram->getMe()["result"]["username"] . "\n" . 'firstnameBot : ' . $telegram->getMe()["result"]["first_name"]; 
@@ -24,22 +37,8 @@ if ($text == '/infos') {
     $telegram->sendMessage($content);
 }
 
-if ($text == '/kewords') {
-    $mycommnets = true;
-    $option = array( 
-        //First row
-        array($telegram->buildKeyboardButton("Button 1"), $telegram->buildKeyboardButton("Button 2")), 
-        //Second row 
-        array($telegram->buildKeyboardButton("Button 3"), $telegram->buildKeyboardButton("Button 4"), $telegram->buildKeyboardButton("Button 5")), 
-        //Third row
-        array($telegram->buildKeyboardButton("Button 6")) );
-    $keyb = $telegram->buildKeyBoard($option, $onetime=false);
-    $content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => "This is a Keyboard Test");
-    $telegram->sendMessage($content);
-}
 
-
-
+ 
 if (!$mycommnets) {
     $content = array('chat_id' => $chat_id, 'text' => 'لطفا با کامنت مناسب شروع کنید ');
     $telegram->sendMessage($content);   
